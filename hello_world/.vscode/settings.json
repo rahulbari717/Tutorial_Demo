@@ -2,5 +2,6 @@
   "C_Cpp.intelliSenseEngine": "default",
   "files.associations": {
     "esp_spi_flash.h": "c"
-  }
+  },
+  "idf.adapterTargetName": "esp32"
 }
