@@ -15,11 +15,11 @@
 
 void app_main(void)
 {
+    printf("This is developer 1 branch \n");
     printf("Hello world!\n");
 
-    printf("Minimum free heap size: %d bytes\n", esp_get_minimum_free_heap_size());
-
-    for (int i = 10; i >= 0; i--) {
+    for (int i = 10; i >= 0; i--)
+    {
         printf("Restarting in %d seconds...\n", i);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
