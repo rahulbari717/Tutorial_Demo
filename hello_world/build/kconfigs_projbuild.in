@@ -1,0 +1,4 @@
+source "/home/lenovo/Esp/esp-idf/components/app_update/Kconfig.projbuild"
+source "/home/lenovo/Esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/lenovo/Esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/lenovo/Esp/esp-idf/components/partition_table/Kconfig.projbuild"
