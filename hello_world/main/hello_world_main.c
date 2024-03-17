@@ -16,6 +16,8 @@
 void app_main(void)
 {
     printf("This is developer 1 branch \n");
+    printf(" Having 1 issue for demo puprpose and we r solving merge conflict \n");
+
     printf("Hello world!\n");
 
     for (int i = 10; i >= 0; i--)
