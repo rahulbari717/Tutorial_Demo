@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "blink",
-    "project_version":    "368ec54",
+    "project_version":    "9e8bfe7-dirty",
     "project_path":       "/home/lenovo/Desktop/Linux_Practice/blink",
     "idf_path":           "/home/lenovo/esp/esp-idf",
     "build_dir":          "/home/lenovo/Desktop/Linux_Practice/blink/build",
