@@ -1,0 +1,245 @@
+d_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x400ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Mar 18 2024 11:02:25[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v1.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (74) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (89) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09504h ( 38148) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=0001952c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (119) esp_image: segment 2: paddr=0001b740 vaddr=40080000 size=048d8h ( 18648) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13410h ( 78864) map[0m
+[0;32mI (157) esp_image: segment 4: paddr=00033438 vaddr=400848d8 size=07e90h ( 32400) load[0m
+[0;32mI (176) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (176) boot: Disabling RNG early entropy source...[0m
+[0;32mI (187) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu start user code[0m
+[0;32mI (196) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (196) cpu_start: Application information:[0m
+[0;32mI (199) cpu_start: Project name:     hello-world[0m
+[0;32mI (205) cpu_start: App version:      011e4d5[0m
+[0;32mI (209) cpu_start: Compile time:     Mar 18 2024 11:02:08[0m
+[0;32mI (216) cpu_start: ELF file SHA256:  4bf5011b3e95250d...[0m
+[0;32mI (222) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (226) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (231) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (236) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (241) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (248) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (254) heap_init: At 3FFB2AD8 len 0002D528 (181 KiB): DRAM[0m
+[0;32mI (260) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (266) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (273) heap_init: At 4008C768 len 00013898 (78 KiB): IRAM[0m
+[0;32mI (280) spi_flash: detected chip: generic[0m
+[0;32mI (284) spi_flash: flash io: dio[0m
+[0;32mI (288) main_task: Started on CPU0[0m
+[0;32mI (298) main_task: Calling app_main()[0m
+[0;32mI (1298) DICE: random number 6[0m
+[0;32mI (2298) DICE: random number 3[0m
+[0;32mI (3298) DICE: random number 2[0m
+[0;32mI (4298) DICE: random number 6[0m
+[0;32mI (5298) DICE: random number 6[0m
+[0;32mI (6298) DICE: random number 5[0m
+[0;32mI (7298) DICE: random number 4[0m
+[0;32mI (8298) DICE: random number 3[0m
+[0;32mI (9298) DICE: random number 1[0m
+[0;32mI (10298) DICE: random number 2[0m
+[0;32mI (11298) DICE: random number 2[0m
+[0;32mI (12298) DICE: random number 4[0m
+[0;32mI (13298) DICE: random number 4[0m
+[0;32mI (14298) DICE: random number 6[0m
+[0;32mI (15298) DICE: random number 6[0m
+[0;32mI (16298) DICE: random number 4[0m
+[0;32mI (17298) DICE: random number 2[0m
+[0;32mI (18298) DICE: random number 2[0m
+[0;32mI (19298) DICE: random number 4[0m
+[0;32mI (20298) DICE: random number 3[0m
+[0;32mI (21298) DICE: random number 4[0m
+[0;32mI (22298) DICE: random number 1[0m
+[0;32mI (23298) DICE: random number 6[0m
+[0;32mI (24298) DICE: random number 1[0m
+[0;32mI (25298) DICE: random number 1[0m
+[0;32mI (26298) DICE: random number 5[0m
+[0;32mI (27298) DICE: random number 5[0m
+[0;32mI (28298) DICE: random number 2[0m
+[0;32mI (29298) DICE: random number 6[0m
+[0;32mI (30298) DICE: random number 5[0m
+[0;32mI (31298) DICE: random number 5[0m
+[0;32mI (32298) DICE: random number 5[0m
+[0;32mI (33298) DICE: random number 1[0m
+[0;32mI (34298) DICE: random number 3[0m
+[0;32mI (35298) DICE: random number 2[0m
+[0;32mI (36298) DICE: random number 6[0m
+[0;32mI (37298) DICE: random number 5[0m
+[0;32mI (38298) DICE: random number 6[0m
+[0;32mI (39298) DICE: random number 4[0m
+[0;32mI (40298) DICE: random number 4[0m
+[0;32mI (41298) DICE: random number 1[0m
+[0;32mI (42298) DICE: random number 1[0m
+[0;32mI (43298) DICE: random number 2[0m
+[0;32mI (44298) DICE: random number 2[0m
+[0;32mI (45298) DICE: random number 4[0m
+[0;32mI (46298) DICE: random number 5[0m
+[0;32mI (47298) DICE: random number 5[0m
+[0;32mI (48298) DICE: random number 3[0m
+[0;32mI (49298) DICE: random number 4[0m
+[0;32mI (50298) DICE: random number 5[0m
+[0;32mI (51298) DICE: random number 3[0m
+[0;32mI (52298) DICE: random number 1[0m
+[0;32mI (53298) DICE: random number 3[0m
+[0;32mI (54298) DICE: random number 6[0m
+[0;32mI (55298) DICE: random number 4[0m
+[0;32mI (56298) DICE: random number 3[0m
+[0;32mI (57298) DICE: random number 5[0m
+[0;32mI (58298) DICE: random number 4[0m
+[0;32mI (59298) DICE: random number 2[0m
+[0;32mI (60298) DICE: random number 6[0m
+[0;32mI (61298) DICE: random number 3[0m
+[0;32mI (62298) DICE: random number 5[0m
+[0;32mI (63298) DICE: random number 2[0m
+[0;32mI (64298) DICE: random number 4[0m
+[0;32mI (65298) DICE: random number 6[0m
+[0;32mI (66298) DICE: random number 5[0m
+[0;32mI (67298) DICE: random number 1[0m
+[0;32mI (68298) DICE: random number 3[0m
+[0;32mI (69298) DICE: random number 3[0m
+[0;32mI (70298) DICE: random number 6[0m
+[0;32mI (71298) DICE: random number 3[0m
+[0;32mI (72298) DICE: random number 3[0m
+[0;32mI (73298) DICE: random number 6[0m
+[0;32mI (74298) DICE: random number 1[0m
+[0;32mI (75298) DICE: random number 4[0m
+[0;32mI (76298) DICE: random number 5[0m
+[0;32mI (77298) DICE: random number 5[0m
+[0;32mI (78298) DICE: random number 6[0m
+[0;32mI (79298) DICE: random number 2[0m
+[0;32mI (80298) DICE: random number 5[0m
+[0;32mI (81298) DICE: random number 4[0m
+[0;32mI (82298) DICE: random number 3[0m
+[0;32mI (83298) DICE: random number 4[0m
+[0;32mI (84298) DICE: random number 2[0m
+[0;32mI (85298) DICE: random number 6[0m
+[0;32mI (86298) DICE: random number 2[0m
+[0;32mI (87298) DICE: random number 5[0m
+[0;32mI (88298) DICE: random number 4[0m
+[0;32mI (89298) DICE: random number 1[0m
+[0;32mI (90298) DICE: random number 6[0m
+[0;32mI (91298) DICE: random number 4[0m
+[0;32mI (92298) DICE: random number 5[0m
+[0;32mI (93298) DICE: random number 6[0m
+[0;32mI (94298) DICE: random number 1[0m
+[0;32mI (95298) DICE: random number 6[0m
+[0;32mI (96298) DICE: random number 4[0m
+[0;32mI (97298) DICE: random number 1[0m
+[0;32mI (98298) DICE: random number 4[0m
+[0;32mI (99298) DICE: random number 6[0m
+[0;32mI (100298) DICE: random number 2[0m
+[0;32mI (101298) DICE: random number 3[0m
+[0;32mI (102298) DICE: random number 6[0m
+[0;32mI (103298) DICE: random number 5[0m
+[0;32mI (104298) DICE: random number 1[0m
+[0;32mI (105298) DICE: random number 2[0m
+[0;32mI (106298) DICE: random number 3[0m
+[0;32mI (107298) DICE: random number 5[0m
+[0;32mI (108298) DICE: random number 2[0m
+[0;32mI (109298) DICE: random number 3[0m
+[0;32mI (110298) DICE: random number 1[0m
+[0;32mI (111298) DICE: random number 5[0m
+[0;32mI (112298) DICE: random number 1[0m
+[0;32mI (113298) DICE: random number 4[0m
+[0;32mI (114298) DICE: random number 4[0m
+[0;32mI (115298) DICE: random number 6[0m
+[0;32mI (116298) DICE: random number 4[0m
+[0;32mI (117298) DICE: random number 3[0m
+[0;32mI (118298) DICE: random number 2[0m
+[0;32mI (119298) DICE: random number 4[0m
+[0;32mI (120298) DICE: random number 5[0m
+[0;32mI (121298) DICE: random number 6[0m
+[0;32mI (122298) DICE: random number 5[0m
+[0;32mI (123298) DICE: random number 2[0m
+[0;32mI (124298) DICE: random number 1[0m
+[0;32mI (125298) DICE: random number 3[0m
+[0;32mI (126298) DICE: random number 2[0m
+[0;32mI (127298) DICE: random number 2[0m
+[0;32mI (128298) DICE: random number 3[0m
+[0;32mI (129298) DICE: random number 2[0m
+[0;32mI (130298) DICE: random number 4[0m
+[0;32mI (131298) DICE: random number 5[0m
+[0;32mI (132298) DICE: random number 2[0m
+[0;32mI (133298) DICE: random number 1[0m
+[0;32mI (134298) DICE: random number 4[0m
+[0;32mI (135298) DICE: random number 4[0m
+[0;32mI (136298) DICE: random number 1[0m
+[0;32mI (137298) DICE: random number 6[0m
+[0;32mI (138298) DICE: random number 2[0m
+[0;32mI (139298) DICE: random number 3[0m
+[0;32mI (140298) DICE: random number 6[0m
+[0;32mI (141298) DICE: random number 3[0m
+[0;32mI (142298) DICE: random number 2[0m
+[0;32mI (143298) DICE: random number 3[0m
+[0;32mI (144298) DICE: random number 4[0m
+[0;32mI (145298) DICE: random number 2[0m
+[0;32mI (146298) DICE: random number 6[0m
+[0;32mI (147298) DICE: random number 5[0m
+[0;32mI (148298) DICE: random number 1[0m
+[0;32mI (149298) DICE: random number 5[0m
+[0;32mI (150298) DICE: random number 2[0m
+[0;32mI (151298) DICE: random number 2[0m
+[0;32mI (152298) DICE: random number 4[0m
+[0;32mI (153298) DICE: random number 2[0m
+[0;32mI (154298) DICE: random number 3[0m
+[0;32mI (155298) DICE: random number 6[0m
+[0;32mI (156298) DICE: random number 2[0m
+[0;32mI (157298) DICE: random number 2[0m
+[0;32mI (158298) DICE: random number 2[0m
+[0;32mI (159298) DICE: random number 2[0m
+[0;32mI (160298) DICE: random number 2[0m
+[0;32mI (161298) DICE: random number 4[0m
+[0;32mI (162298) DICE: random number 4[0m
+[0;32mI (163298) DICE: random number 6[0m
+[0;32mI (164298) DICE: random number 6[0m
+[0;32mI (165298) DICE: random number 2[0m
+[0;32mI (166298) DICE: random number 4[0m
+[0;32mI (167298) DICE: random number 2[0m
+[0;32mI (168298) DICE: random number 5[0m
+[0;32mI (169298) DICE: random number 1[0m
+[0;32mI (170298) DICE: random number 1[0m
+[0;32mI (171298) DICE: random number 1[0m
+[0;32mI (172298) DICE: random number 5[0m
+[0;32mI (173298) DICE: random number 2[0m
+[0;32mI (174298) DICE: random number 1[0m
+[0;32mI (175298) DICE: random number 1[0m
+[0;32mI (176298) DICE: random number 2[0m
+[0;32mI (177298) DICE: random number 5[0m
+[0;32mI (178298) DICE: random number 1[0m
+[0;32mI (179298) DICE: random number 2[0m
+[0;32mI (180298) DICE: random number 4[0m
+[0;32mI (181298) DICE: random number 5[0m
+[0;32mI (182298) DICE: random number 6[0m
+[0;32mI (183298) DICE: random number 2[0m
+[0;32mI (184298) DICE: random number 5[0m
+[0;32mI (185298) DICE: random number 6[0m
+[0;32mI (186298) DICE: random number 6[0m
