@@ -15,7 +15,7 @@ int dice_role()
     int diceNumber = (positiveNumber % 6) + 1;
     return diceNumber;
 }
-
+ 
 void app_main(void)
 {
     while (1)

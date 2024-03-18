@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "hello-world",
-    "project_version":    "011e4d5",
+    "project_version":    "9fee1a89-dirty",
     "project_path":       "/home/lenovo/Desktop/Linux_Practice/6_Random_number",
     "idf_path":           "/home/lenovo/esp/esp-idf",
     "build_dir":          "/home/lenovo/Desktop/Linux_Practice/6_Random_number/build",
