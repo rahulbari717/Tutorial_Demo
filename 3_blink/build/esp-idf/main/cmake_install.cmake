@@ -1,4 +1,4 @@
-# Install script for directory: /home/lenovo/Desktop/Linux_Practice/blink/main
+# Install script for directory: /home/lenovo/Desktop/Linux_Practice/3_blink/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1432,7 +1432,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/lenovo/Desktop/Linux_Practice/blink -B/home/lenovo/Desktop/Linux_Practice/blink/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/lenovo/Desktop/Linux_Practice/3_blink -B/home/lenovo/Desktop/Linux_Practice/3_blink/build
   description = Re-running CMake...
   generator = 1
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lenovo/Desktop/Linux_Practice/Sample_code/main
+# Install script for directory: /home/lenovo/Desktop/Linux_Practice/1_Sample_code/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

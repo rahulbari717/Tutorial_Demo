@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/CMakeFiles/bootloader"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/CMakeFiles/bootloader.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/home/lenovo/Desktop/Linux_Practice/Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/home/lenovo/Desktop/Linux_Practice/1_Sample_code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

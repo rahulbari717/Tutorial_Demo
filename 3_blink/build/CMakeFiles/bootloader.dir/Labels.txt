@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/home/lenovo/Desktop/Linux_Practice/blink/build/CMakeFiles/bootloader
-/home/lenovo/Desktop/Linux_Practice/blink/build/CMakeFiles/bootloader.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/CMakeFiles/bootloader-complete.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/home/lenovo/Desktop/Linux_Practice/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/CMakeFiles/bootloader
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/CMakeFiles/bootloader.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/CMakeFiles/bootloader-complete.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/lenovo/Desktop/Linux_Practice/3_blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

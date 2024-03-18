@@ -1,4 +1,4 @@
-# Install script for directory: /home/lenovo/Desktop/Linux_Practice/blink/managed_components/espressif__led_strip
+# Install script for directory: /home/lenovo/Desktop/Linux_Practice/3_blink/managed_components/espressif__led_strip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
