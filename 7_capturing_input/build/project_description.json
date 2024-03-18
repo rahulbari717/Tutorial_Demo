@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "hello-world",
-    "project_version":    "2bb33b3e",
+    "project_version":    "842ed856-dirty",
     "project_path":       "/home/lenovo/Desktop/Linux_Practice/7_capturing_input",
     "idf_path":           "/home/lenovo/esp/esp-idf",
     "build_dir":          "/home/lenovo/Desktop/Linux_Practice/7_capturing_input/build",
