@@ -11,14 +11,14 @@
 
 static char *TAG = "UPSERT S3";
 
-#define AWS_ACCESS_KEY "AKIAU6GDXX5NFKLTXEN2"                                             // your IAM access key
-#define AWS_ACCESS_SECRET "wK58HKjDxph0TAyPMnRG7ZKIaC1rdIGjxnwnSGDw"                      // your IAM access secret
-#define URL "https://my-esp32-ota-bucket.s3.ap-south-1.amazonaws.com/Rahul.csv"           // your file URL to create and read
-#define HOST "my-esp32-ota-bucket.s3.amazonaws.com"                                       // your bucket host
-#define REGION "ap-south-1"                                                               // your bucket region
-#define CANONICAL_URI "/Test.csv"                                                         // your file name
-#define OTA_URL "https://my-esp32-ota-bucket.s3.ap-south-1.amazonaws.com/hello-world.bin" // once you compile this code, upload the binary to your bucket and change this URL for OTA
-#define OTA_CANONICAL_URI "/hello-world.bin"                                              // the name of the binary file for OTA
+#define AWS_ACCESS_KEY "your IAM access key"                                                               // your IAM access key
+#define AWS_ACCESS_SECRET " your IAM access secret"                                                        // your IAM access secret
+#define URL "your file URL to create and read"                                                             // your file URL to create and read
+#define HOST "your bucket host"                                                                            // your bucket host
+#define REGION "your bucket region"                                                                        // your bucket region
+#define CANONICAL_URI " your file name"                                                                    // your file name
+#define OTA_URL "once you compile this code, upload the binary to your bucket and change this URL for OTA" // once you compile this code, upload the binary to your bucket and change this URL for OTA
+#define OTA_CANONICAL_URI "the name of the binary file for OTA"                                            // the name of the binary file for OTA
 
 esp_err_t on_client_data(esp_http_client_event_t *evt)
 {
