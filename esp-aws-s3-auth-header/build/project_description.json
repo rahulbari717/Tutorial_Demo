@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "aws-s3-auth-headers",
-    "project_version":    "e702de91",
+    "project_version":    "c23efdcc-dirty",
     "project_path":       "/home/lenovo/Desktop/Linux_Practice/esp-aws-s3-auth-header",
     "idf_path":           "/home/lenovo/esp/esp-idf",
     "build_dir":          "/home/lenovo/Desktop/Linux_Practice/esp-aws-s3-auth-header/build",
