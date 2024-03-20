@@ -1,0 +1,66 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/build/bootloader/esp-idf/esptool_py && /home/lenovo/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/lenovo/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[2/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /home/lenovo/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from /home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/main/main.c:4:
+/home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/main/main.c: In function 'receiver':
+/home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/main/main.c:27:40: warning: passing argument 4 of 'xTaskGenericNotifyWait' from incompatible pointer type [-Wincompatible-pointer-types]
+   27 |         xTaskNotifyWait(0xffffffff, 0, &state, portMAX_DELAY);
+/home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:2278:110: note: in definition of macro 'xTaskNotifyWait'
+ 2278 |     xTaskGenericNotifyWait( tskDEFAULT_INDEX_TO_NOTIFY, ( ulBitsToClearOnEntry ), ( ulBitsToClearOnExit ), ( pulNotificationValue ), ( xTicksToWait ) )
+      |                                                                                                              ^~~~~~~~~~~~~~~~~~~~
+/home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:2275:47: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'int *'
+ 2275 |                                    uint32_t * pulNotificationValue,
+      |                                    ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[3/9] Linking C static library esp-idf/main/libmain.a
+[4/9] Generating ld/sections.ld
+[5/9] Building C object CMakeFiles/FreeRTOS_TASK.elf.dir/project_elf_src_esp32.c.obj
+[6/9] Linking CXX executable FreeRTOS_TASK.elf
+[7/9] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/build/FreeRTOS_TASK.bin
+[8/9] cd /home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/build/esp-idf/esptool_py && /home/lenovo/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/lenovo/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/build/partition_table/partition-table.bin /home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/build/FreeRTOS_TASK.bin
+FreeRTOS_TASK.bin binary size 0x2b2f0 bytes. Smallest app partition is 0x100000 bytes. 0xd4d10 bytes (83%) free.
+[8/9] cd /home/lenovo/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/lenovo/esp/esp-idf -D "SERIAL_TOOL=/home/lenovo/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/home/lenovo/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/lenovo/Desktop/Linux_Practice/12_Free_RTOS_Task_Notify2/build -P /home/lenovo/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 FreeRTOS_TASK.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting......
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:3a:f2:aa:19:f8
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0003bfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26704 bytes to 16346...
+Writing at 0x00001000... (100 %)
+Wrote 26704 bytes (16346 compressed) at 0x00001000 in 0.9 seconds (effective 242.1 kbit/s)...
+Hash of data verified.
+Compressed 176880 bytes to 94679...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c238... (33 %)
+Writing at 0x00021cd2... (50 %)
+Writing at 0x000275a2... (66 %)
+Writing at 0x0002ed13... (83 %)
+Writing at 0x0003607c... (100 %)
+Wrote 176880 bytes (94679 compressed) at 0x00010000 in 2.6 seconds (effective 538.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 357.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
