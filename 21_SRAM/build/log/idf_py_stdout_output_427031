@@ -1,0 +1,12 @@
+[0/1] cd /home/lenovo/Desktop/Linux_Practice/21_SRAM/build && /usr/bin/cmake -D "IDF_SIZE_TOOL=/home/lenovo/.espressif/python_env/idf5.2_py3.10_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/lenovo/Desktop/Linux_Practice/21_SRAM/build/SRAM.map -D OUTPUT_JSON= -P /home/lenovo/esp/esp-idf/tools/cmake/run_size_tool.cmake
+Total sizes:
+Used static DRAM:   10956 bytes ( 169780 remain, 6.1% used)
+      .data size:    8716 bytes
+      .bss  size:    2240 bytes
+Used static IRAM:   50986 bytes (  80086 remain, 38.9% used)
+      .text size:   49959 bytes
+   .vectors size:    1027 bytes
+Used Flash size :  117175 bytes
+           .text:   78947 bytes
+         .rodata:   37972 bytes
+Total image size:  176877 bytes (.bin may be padded larger)
