@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "Storage",
-    "project_version":    "d1a3a15e-dirty",
+    "project_version":    "be570155-dirty",
     "project_path":       "/home/lenovo/Desktop/Linux_Practice/4_Storage/24_files_embedd",
     "idf_path":           "/home/lenovo/esp/esp-idf",
     "build_dir":          "/home/lenovo/Desktop/Linux_Practice/4_Storage/24_files_embedd/build",
