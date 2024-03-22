@@ -1,4 +1,4 @@
-/* * Data converted from /home/lenovo/Desktop/Linux_Practice/23_Flash_partition/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/lenovo/Desktop/Linux_Practice/4_Storage/24_files_embedd/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lenovo/Desktop/Linux_Practice/23_Flash_partition/main
+# Install script for directory: /home/lenovo/Desktop/Linux_Practice/4_Storage/24_files_embedd/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

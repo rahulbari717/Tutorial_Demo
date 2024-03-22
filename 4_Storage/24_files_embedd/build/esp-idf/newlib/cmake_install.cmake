@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/lenovo/Desktop/Linux_Practice/23_Flash_partition/build/esp-idf/newlib/port/cmake_install.cmake")
+  include("/home/lenovo/Desktop/Linux_Practice/4_Storage/24_files_embedd/build/esp-idf/newlib/port/cmake_install.cmake")
 endif()
 

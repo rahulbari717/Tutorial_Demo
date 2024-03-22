@@ -1,0 +1,8 @@
+This is files for sample testing 
+file name is rahul.txt
+
+this is added in embedded.txt in compenent.mk files 
+pleaes look it 
+
+Thank you 
+rahul
