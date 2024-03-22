@@ -1413,7 +1413,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/lenovo/Desktop/Linux_Practice/21_SRAM -B/home/lenovo/Desktop/Linux_Practice/21_SRAM/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/lenovo/Desktop/Linux_Practice/22_Stack_Memory -B/home/lenovo/Desktop/Linux_Practice/22_Stack_Memory/build
   description = Re-running CMake...
   generator = 1
 

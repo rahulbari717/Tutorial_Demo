@@ -1,4 +1,4 @@
-/* * Data converted from /home/lenovo/Desktop/Linux_Practice/21_SRAM/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/lenovo/Desktop/Linux_Practice/22_Stack_Memory/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

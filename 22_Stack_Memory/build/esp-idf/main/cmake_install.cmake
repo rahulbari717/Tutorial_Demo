@@ -1,4 +1,4 @@
-# Install script for directory: /home/lenovo/Desktop/Linux_Practice/21_SRAM/main
+# Install script for directory: /home/lenovo/Desktop/Linux_Practice/22_Stack_Memory/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
