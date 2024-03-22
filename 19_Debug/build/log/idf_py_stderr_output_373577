@@ -1,0 +1,120 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/lenovo/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/lenovo/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/lenovo/esp/esp-idf/components/newlib/assert.c:81
+0x40085e3a: xQueueSemaphoreTake at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x40085f56: xQueueTakeMutexRecursive at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x40082661: lock_acquire_generic at /home/lenovo/esp/esp-idf/components/newlib/locks.c:144
+0x40082769: _lock_acquire_recursive at /home/lenovo/esp/esp-idf/components/newlib/locks.c:158
+0x400d5227: uart_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_uart.c:209
+0x400d40df: console_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x400d3c6a: esp_vfs_write at /home/lenovo/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d7f75: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400d805b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x400d8093: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x400d52ac: callingFunk at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:12
+0x400d52c9: task1 at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:20
+0x40086021: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/lenovo/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/lenovo/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/lenovo/esp/esp-idf/components/newlib/assert.c:81
+0x40085e3a: xQueueSemaphoreTake at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x40085f56: xQueueTakeMutexRecursive at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x40082661: lock_acquire_generic at /home/lenovo/esp/esp-idf/components/newlib/locks.c:144
+0x40082769: _lock_acquire_recursive at /home/lenovo/esp/esp-idf/components/newlib/locks.c:158
+0x400d5227: uart_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_uart.c:209
+0x400d40df: console_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x400d3c6a: esp_vfs_write at /home/lenovo/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d7f75: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400d805b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x400d8093: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x400d52ac: callingFunk at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:12
+0x400d52c9: task1 at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:20
+0x40086021: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/lenovo/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/lenovo/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/lenovo/esp/esp-idf/components/newlib/assert.c:81
+0x40085e3a: xQueueSemaphoreTake at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x40085f56: xQueueTakeMutexRecursive at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x40082661: lock_acquire_generic at /home/lenovo/esp/esp-idf/components/newlib/locks.c:144
+0x40082769: _lock_acquire_recursive at /home/lenovo/esp/esp-idf/components/newlib/locks.c:158
+0x400d5227: uart_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_uart.c:209
+0x400d40df: console_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x400d3c6a: esp_vfs_write at /home/lenovo/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d7f75: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400d805b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x400d8093: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x400d52ac: callingFunk at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:12
+0x400d52c9: task1 at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:20
+0x40086021: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/lenovo/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/lenovo/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/lenovo/esp/esp-idf/components/newlib/assert.c:81
+0x40085e3a: xQueueSemaphoreTake at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x40085f56: xQueueTakeMutexRecursive at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x40082661: lock_acquire_generic at /home/lenovo/esp/esp-idf/components/newlib/locks.c:144
+0x40082769: _lock_acquire_recursive at /home/lenovo/esp/esp-idf/components/newlib/locks.c:158
+0x400d5227: uart_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_uart.c:209
+0x400d40df: console_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x400d3c6a: esp_vfs_write at /home/lenovo/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d7f75: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400d805b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x400d8093: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x400d52ac: callingFunk at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:12
+0x400d52c9: task1 at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:20
+0x40086021: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at /home/lenovo/esp/esp-idf/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at /home/lenovo/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at /home/lenovo/esp/esp-idf/components/newlib/assert.c:81
+0x40085e3a: xQueueSemaphoreTake at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x40085f56: xQueueTakeMutexRecursive at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x40082661: lock_acquire_generic at /home/lenovo/esp/esp-idf/components/newlib/locks.c:144
+0x40082769: _lock_acquire_recursive at /home/lenovo/esp/esp-idf/components/newlib/locks.c:158
+0x400d5227: uart_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_uart.c:209
+0x400d40df: console_write at /home/lenovo/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x400d3c6a: esp_vfs_write at /home/lenovo/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400d7f75: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400d805b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x400d8093: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x400d52ac: callingFunk at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:12
+0x400d52c9: task1 at /home/lenovo/Desktop/Linux_Practice/19_Debug/main/main.c:20
+0x40086021: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

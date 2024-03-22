@@ -12,7 +12,8 @@ void aTask(void *param)
     int stackmem = uxTaskGetStackHighWaterMark(NULL);
     ESP_LOGI(TAG, "stack space = %d", stackmem);
 
-    char buffer[6500];
+    // if stack over is detected comment this 2 line and see how much memory you have.
+    char buffer[6000];
     memset(&buffer, 1, sizeof(buffer));
 
     while (true)
