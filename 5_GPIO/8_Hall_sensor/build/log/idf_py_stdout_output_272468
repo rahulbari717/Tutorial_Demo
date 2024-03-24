@@ -1,0 +1,164 @@
+an the size in the binary �ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Mar 24 2024 14:16:57[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=094f4h ( 38132) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=0001951c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (119) esp_image: segment 2: paddr=0001b730 vaddr=40080000 size=048e8h ( 18664) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=133d4h ( 78804) map[0m
+[0;32mI (157) esp_image: segment 4: paddr=000333fc vaddr=400848e8 size=08cf0h ( 36080) load[0m
+[0;32mI (178) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (178) boot: Disabling RNG early entropy source...[0m
+[0;32mI (189) cpu_start: Multicore app[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (199) cpu_start: Application information:[0m
+[0;32mI (202) cpu_start: Project name:     Sample_code[0m
+[0;32mI (207) cpu_start: App version:      21ae5dbd[0m
+[0;32mI (212) cpu_start: Compile time:     Mar 24 2024 14:16:27[0m
+[0;32mI (218) cpu_start: ELF file SHA256:  862a8d98a...[0m
+[0;32mI (223) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (228) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (233) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (238) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (243) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (250) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (256) heap_init: At 3FFB2AD0 len 0002D530 (181 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (268) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (275) heap_init: At 4008D5D8 len 00012A28 (74 KiB): IRAM[0m
+[0;32mI (282) spi_flash: detected chip: generic[0m
+[0;32mI (285) spi_flash: flash io: dio[0m
+[0;33mW (289) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (303) main_task: Started on CPU0[0m
+[0;32mI (313) main_task: Calling app_main()[0m
+Hall Sens: 1
+Hall Sens: 14
+Hall Sens: 85
+Hall Sens: 65278
+Hall Sens: 31
+Hall Sens: 65412
+Hall Sens: 65471
+Hall Sens: 47
+Hall Sens: 59
+Hall Sens: 163
+Hall Sens: 65473
+Hall Sens: 25
+Hall Sens: 33
+Hall Sens: 70
+Hall Sens: 221
+Hall Sens: 65447
+Hall Sens: 34
+Hall Sens: 9
+Hall Sens: 9
+Hall Sens: 65450
+Hall Sens: 20
+Hall Sens: 65514
+Hall Sens: 58
+Hall Sens: 65531
+Hall Sens: 58
+Hall Sens: 22
+Hall Sens: 3
+Hall Sens: 65425
+Hall Sens: 118
+Hall Sens: 22
+Hall Sens: 10
+Hall Sens: 11
+Hall Sens: 76
+Hall Sens: 23
+Hall Sens: 49
+Hall Sens: 65519
+Hall Sens: 80
+Hall Sens: 206
+Hall Sens: 65319
+Hall Sens: 3
+Hall Sens: 4
+Hall Sens: 118
+Hall Sens: 24
+Hall Sens: 10
+Hall Sens: 516
+Hall Sens: 7
+Hall Sens: 24
+Hall Sens: 65352
+Hall Sens: 153
+Hall Sens: 100
+Hall Sens: 65482
+Hall Sens: 54
+Hall Sens: 136
+Hall Sens: 15
+Hall Sens: 55
+Hall Sens: 65462
+Hall Sens: 57
+Hall Sens: 42
+Hall Sens: 35
+Hall Sens: 34
+Hall Sens: 20
+Hall Sens: 15
+Hall Sens: 14
+Hall Sens: 26
+Hall Sens: 65527
+Hall Sens: 20
+Hall Sens: 65521
+Hall Sens: 502
+Hall Sens: 65466
+Hall Sens: 105
+Hall Sens: 27
+Hall Sens: 32
+Hall Sens: 26
+Hall Sens: 65490
+Hall Sens: 32
+Hall Sens: 11
+Hall Sens: 17
+Hall Sens: 3
+Hall Sens: 7
+Hall Sens: 65531
+Hall Sens: 0
+Hall Sens: 77
+Hall Sens: 31
+Hall Sens: 24
+Hall Sens: 65518
+Hall Sens: 35
+Hall Sens: 107
+Hall Sens: 21
+Hall Sens: 19
+Hall Sens: 27
+Hall Sens: 20
+Hall Sens: 10
+Hall Sens: 65344
+Hall Sens: 65185
+Hall Sens: 22
+Hall Sens: 27
+Hall Sens: 91
+Hall Sens: 26
+Hall Sens: 16
+Hall Sens: 21
+Hall Sens: 65528
+Hall Sens: 26
+Hall Sens: 85
+Hall Sens: 419
+Hall Sens: 22
+Hall Sens: 0
+Hall Sens: 22
+Hall Sens: 24
+Hall Sens: 28

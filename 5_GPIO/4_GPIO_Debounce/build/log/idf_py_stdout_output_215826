@@ -1,0 +1,146 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Mar 24 2024 13:19:47[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09e24h ( 40484) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00019e4c vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (120) esp_image: segment 2: paddr=0001c0a8 vaddr=40080000 size=03f70h ( 16240) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1441ch ( 82972) map[0m
+[0;32mI (159) esp_image: segment 4: paddr=00034444 vaddr=40083f70 size=08b78h ( 35704) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (200) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     blink[0m
+[0;32mI (208) cpu_start: App version:      21ae5dbd[0m
+[0;32mI (213) cpu_start: Compile time:     Mar 24 2024 13:19:30[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  82d9d2365...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2B18 len 0002D4E8 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008CAE8 len 00013518 (77 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;32mI (291) main_task: Started on CPU0[0m
+[0;32mI (301) main_task: Calling app_main()[0m
+[0;32mI (301) main_task: Returned from app_main()[0m
+GPIO 25 was pressed 0 times. The state is 0
+GPIO 25 was pressed 1 times. The state is 0
+GPIO 25 was pressed 2 times. The state is 0
+GPIO 25 was pressed 3 times. The state is 0
+GPIO 25 was pressed 4 times. The state is 0
+GPIO 25 was pressed 5 times. The state is 0
+GPIO 25 was pressed 6 times. The state is 0
+GPIO 25 was pressed 7 times. The state is 0
+GPIO 25 was pressed 8 times. The state is 0
+GPIO 25 was pressed 9 times. The state is 0
+GPIO 25 was pressed 10 times. The state is 0
+GPIO 25 was pressed 11 times. The state is 0
+GPIO 25 was pressed 12 times. The state is 0
+GPIO 25 was pressed 13 times. The state is 0
+GPIO 25 was pressed 14 times. The state is 0
+GPIO 25 was pressed 15 times. The state is 0
+GPIO 25 was pressed 16 times. The state is 0
+GPIO 25 was pressed 17 times. The state is 0
+GPIO 25 was pressed 18 times. The state is 0
+GPIO 25 was pressed 19 times. The state is 0
+GPIO 25 was pressed 20 times. The state is 0
+GPIO 25 was pressed 21 times. The state is 0
+GPIO 25 was pressed 22 times. The state is 0
+GPIO 25 was pressed 23 times. The state is 0
+GPIO 25 was pressed 24 times. The state is 0
+GPIO 25 was pressed 25 times. The state is 0
+GPIO 25 was pressed 26 times. The state is 0
+GPIO 25 was pressed 27 times. The state is 0
+GPIO 25 was pressed 28 times. The state is 0
+GPIO 25 was pressed 29 times. The state is 0
+GPIO 25 was pressed 30 times. The state is 0
+GPIO 25 was pressed 31 times. The state is 0
+GPIO 25 was pressed 32 times. The state is 0
+GPIO 25 was pressed 33 times. The state is 0
+GPIO 25 was pressed 34 times. The state is 0
+GPIO 25 was pressed 35 times. The state is 0
+GPIO 25 was pressed 36 times. The state is 0
+GPIO 25 was pressed 37 times. The state is 0
+GPIO 25 was pressed 38 times. The state is 0
+GPIO 25 was pressed 39 times. The state is 0
+GPIO 25 was pressed 40 times. The state is 0
+GPIO 25 was pressed 41 times. The state is 0
+GPIO 25 was pressed 42 times. The state is 0
+GPIO 25 was pressed 43 times. The state is 0
+GPIO 25 was pressed 44 times. The state is 0
+GPIO 25 was pressed 45 times. The state is 0
+GPIO 25 was pressed 46 times. The state is 0
+GPIO 25 was pressed 47 times. The state is 0
+GPIO 25 was pressed 48 times. The state is 0
+GPIO 25 was pressed 49 times. The state is 0
+GPIO 25 was pressed 50 times. The state is 0
+GPIO 25 was pressed 51 times. The state is 0
+GPIO 25 was pressed 52 times. The state is 0
+GPIO 25 was pressed 53 times. The state is 0
+GPIO 25 was pressed 54 times. The state is 0
+GPIO 25 was pressed 55 times. The state is 0
+GPIO 25 was pressed 56 times. The state is 0
+GPIO 25 was pressed 57 times. The state is 0
+GPIO 25 was pressed 58 times. The state is 0
+GPIO 25 was pressed 59 times. The state is 0
+GPIO 25 was pressed 60 times. The state is 0
+GPIO 25 was pressed 61 times. The state is 0
+GPIO 25 was pressed 62 times. The state is 0
+GPIO 25 was pressed 63 times. The state is 0
+GPIO 25 was pressed 64 times. The state is 0
+GPIO 25 was pressed 65 times. The state is 0
+GPIO 25 was pressed 66 times. The state is 0
+GPIO 25 was pressed 67 times. The state is 0
+GPIO 25 was pressed 68 times. The state is 0
+GPIO 25 was pressed 69 times. The state is 0
+GPIO 25 was pressed 70 times. The state is 0
+GPIO 25 was pressed 71 times. The state is 0
+GPIO 25 was pressed 72 times. The state is 0
+GPIO 25 was pressed 73 times. The state is 0
+GPIO 25 was pressed 74 times. The state is 0
+GPIO 25 was pressed 75 times. The state is 0
+GPIO 25 was pressed 76 times. The state is 0
+GPIO 25 was pressed 77 times. The state is 0
+GPIO 25 was pressed 78 times. The state is 0
+GPIO 25 was pressed 79 times. The state is 0
+GPIO 25 was pressed 80 times. The state is 0
+GPIO 25 was pressed 81 times. The state is 0
+GPIO 25 was pressed 82 times. The state is 0
+GPIO 25 was pressed 83 times. The state is 0
+GPIO 25 was pressed 84 times. The state is 0
+GPIO 25 was pressed 85 times. The state is 0
+GPIO 25 was pressed 86 times. The state is 0
+GPIO 25 was pressed 87 times. The state is 0
+GPIO 25 was pressed 88 times. The state is 0
+GPIO 25 was pressed 89 times. The state is 0
+GPIO 25 was pressed 90 times. The state is 0
