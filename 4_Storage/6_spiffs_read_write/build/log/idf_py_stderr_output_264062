@@ -1,0 +1,89 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400dd829: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113 (discriminator 1)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400dd826: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113
+0x400dd917: fgets at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:195 (discriminator 1)
+0x400d5777: read_file at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:49
+0x400d57ff: app_main at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:35
+0x400ef454: main_task at /home/lenovo/esp/esp-idf/components/freertos/app_startup.c:208
+0x400867c1: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400dd829: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113 (discriminator 1)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400dd826: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113
+0x400dd917: fgets at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:195 (discriminator 1)
+0x400d5777: read_file at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:49
+0x400d57ff: app_main at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:35
+0x400ef454: main_task at /home/lenovo/esp/esp-idf/components/freertos/app_startup.c:208
+0x400867c1: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400dd829: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113 (discriminator 1)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400dd826: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113
+0x400dd917: fgets at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:195 (discriminator 1)
+0x400d5777: read_file at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:49
+0x400d57ff: app_main at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:35
+0x400ef454: main_task at /home/lenovo/esp/esp-idf/components/freertos/app_startup.c:208
+0x400867c1: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400dd829: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113 (discriminator 1)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400dd826: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113
+0x400dd917: fgets at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:195 (discriminator 1)
+0x400d5777: read_file at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:49
+0x400d57ff: app_main at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:35
+0x400ef454: main_task at /home/lenovo/esp/esp-idf/components/freertos/app_startup.c:208
+0x400867c1: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400dd829: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113 (discriminator 1)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400dd826: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113
+0x400dd917: fgets at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:195 (discriminator 1)
+0x400d5777: read_file at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:49
+0x400d57ff: app_main at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:35
+0x400ef454: main_task at /home/lenovo/esp/esp-idf/components/freertos/app_startup.c:208
+0x400867c1: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400dd829: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113 (discriminator 1)
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x400dd826: _fgets_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:113
+0x400dd917: fgets at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fgets.c:195 (discriminator 1)
+0x400d5777: read_file at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:49
+0x400d57ff: app_main at /home/lenovo/Desktop/Linux_Practice/4_Storage/6_spiffs_read_write/main/main.c:35
+0x400ef454: main_task at /home/lenovo/esp/esp-idf/components/freertos/app_startup.c:208
+0x400867c1: vPortTaskWrapper at /home/lenovo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

@@ -1,0 +1,39 @@
+0000000000000000000000000000000000000000 3f2fdd122dbbddb958d433d3dc4e726a39f24709 rahulbari <rahulbari717@gmail.com> 1709873892 +0530	branch: Created from HEAD
+3f2fdd122dbbddb958d433d3dc4e726a39f24709 7e1587c8d40a20650b1f11a43c3163880aa526b7 rahulbari <rahulbari717@gmail.com> 1709875276 +0530	commit: Sample world and Hello world code Added
+7e1587c8d40a20650b1f11a43c3163880aa526b7 c0307e39731348c12f1f9cfb8131081059dcbeff rahulbari <rahulbari717@gmail.com> 1710604161 +0530	commit: Ota code testing ...in master branch
+c0307e39731348c12f1f9cfb8131081059dcbeff 826f318dea4265f27a7a3e28a2366676b13c14bb rahulbari <rahulbari717@gmail.com> 1710604367 +0530	pull --rebase origin master (finish): refs/heads/master onto 7920b74743ade10b103bd7e0ff64194bdfe22131
+826f318dea4265f27a7a3e28a2366676b13c14bb 2ba7627c33fdb92c323e1f1a67f69dbfc06375e4 rahulbari <rahulbari717@gmail.com> 1710604921 +0530	merge developer2: Merge made by the 'ort' strategy.
+2ba7627c33fdb92c323e1f1a67f69dbfc06375e4 d493067bc5ee08e28af45dc836035da141dc3558 rahulbari <rahulbari717@gmail.com> 1710651884 +0530	merge developer1: Merge made by the 'ort' strategy.
+d493067bc5ee08e28af45dc836035da141dc3558 9e8bfe7b1171382bb24c0bf475b9e0e791134705 rahulbari <rahulbari717@gmail.com> 1710652341 +0530	commit: delete unneccesary files
+9e8bfe7b1171382bb24c0bf475b9e0e791134705 8a4b7e781ad45e86e2d9ee81890647d5695882ec rahulbari <rahulbari717@gmail.com> 1710737662 +0530	commit: sample code for 4.3 version is added here in master branch
+8a4b7e781ad45e86e2d9ee81890647d5695882ec b5cc3ca6889e92f783980dea9a9e402b11d89290 rahulbari <rahulbari717@gmail.com> 1710738005 +0530	commit: Numbering Provided for simplicity
+b5cc3ca6889e92f783980dea9a9e402b11d89290 809d592a8b0bdcfe12c286b4e552940e3222af25 rahulbari <rahulbari717@gmail.com> 1710739122 +0530	commit: 4_Logging files added Here
+809d592a8b0bdcfe12c286b4e552940e3222af25 011e4d524838d41c6888db760fc803fc6add9e49 rahulbari <rahulbari717@gmail.com> 1710739657 +0530	commit: 5_Delay is added Here
+011e4d524838d41c6888db760fc803fc6add9e49 4f2b102c3f89538a7e1a76d2069edf5c94f14e07 rahulbari <rahulbari717@gmail.com> 1710740698 +0530	commit: 6_Random_number is added
+4f2b102c3f89538a7e1a76d2069edf5c94f14e07 9fee1a89845e4051bcf3fb49d2a1c0a7a6c4cfca rahulbari <rahulbari717@gmail.com> 1710741264 +0530	commit: 3_Blink file is modified with simple code
+9fee1a89845e4051bcf3fb49d2a1c0a7a6c4cfca 2bb33b3e8a4a1b0ae2b4d995770c614eff46fe48 rahulbari <rahulbari717@gmail.com> 1710741477 +0530	commit: 6_Random number files modified
+2bb33b3e8a4a1b0ae2b4d995770c614eff46fe48 842ed85639f242eded1ba6e9ad20996c991e6518 rahulbari <rahulbari717@gmail.com> 1710742471 +0530	commit: 7_capturing
+842ed85639f242eded1ba6e9ad20996c991e6518 7a96fd4467a6cb8fe7be9f485fb418d87b4715d6 rahulbari <rahulbari717@gmail.com> 1710743296 +0530	commit: build folder changes
+7a96fd4467a6cb8fe7be9f485fb418d87b4715d6 6e26f8811033317fea740939dd85862e635b4853 rahulbari <rahulbari717@gmail.com> 1710753022 +0530	commit: 8 & 9 code folders are added
+6e26f8811033317fea740939dd85862e635b4853 e7de7a6ef5bb80ed2a92eacdeb36d4da88fe0043 rahulbari <rahulbari717@gmail.com> 1710837597 +0530	commit: OTA esp32 successfull connectoin with aws s3
+e7de7a6ef5bb80ed2a92eacdeb36d4da88fe0043 515f7970d27aca8600f9566332b6e5c3d2c6f572 rahulbari <rahulbari717@gmail.com> 1710838397 +0530	commit: Delete the header files
+515f7970d27aca8600f9566332b6e5c3d2c6f572 e702de91a1d21f861b7cd2f9bc45ea29ae3a5939 rahulbari <rahulbari717@gmail.com> 1710838622 +0530	pull origin master (finish): refs/heads/master onto f4196da122ff9e352d210071f4c2253f3f6f9487
+e702de91a1d21f861b7cd2f9bc45ea29ae3a5939 a41b8a68eabd9009d3ba8acb3844193ebdb49916 rahulbari <rahulbari717@gmail.com> 1710839030 +0530	commit: OTA code for ESP32 integration with AWS cloud
+a41b8a68eabd9009d3ba8acb3844193ebdb49916 c23efdcc87eb4efc93336ac631703c78115eefed rahulbari <rahulbari717@gmail.com> 1710839478 +0530	commit: OTA for esp32 to aws s3 integrations
+c23efdcc87eb4efc93336ac631703c78115eefed 2472b27ac0f5093d5e007af81ba5076e38dfd897 rahulbari <rahulbari717@gmail.com> 1710839731 +0530	commit: OTA S3
+2472b27ac0f5093d5e007af81ba5076e38dfd897 32e19f23170e1a41d09cd19cecdd4fd5c76c3cc6 rahulbari <rahulbari717@gmail.com> 1710951726 +0530	commit: In Free RTOS codes are added right now
+32e19f23170e1a41d09cd19cecdd4fd5c76c3cc6 6634d4623a818f5813a0ac1fdace46b19cf2f2d5 rahulbari <rahulbari717@gmail.com> 1710996779 +0530	commit: Seprate folder for seprate operation
+6634d4623a818f5813a0ac1fdace46b19cf2f2d5 208178562afee4225ba08ba736dfa85744172d53 rahulbari <rahulbari717@gmail.com> 1711002211 +0530	commit: Debug files are added now
+208178562afee4225ba08ba736dfa85744172d53 38f5016f629b700022e1d246e6ed92878874ec8a rahulbari <rahulbari717@gmail.com> 1711037955 +0530	commit: stack_Memory uploaded
+38f5016f629b700022e1d246e6ed92878874ec8a 311f80775898decc5dd801b3cc597f75e1ce5c13 rahulbari <rahulbari717@gmail.com> 1711083654 +0530	commit: build files modified
+311f80775898decc5dd801b3cc597f75e1ce5c13 4f09e1d3252db2bda920e2b496080c455afb769a rahulbari <rahulbari717@gmail.com> 1711084959 +0530	commit: Add global .gitignore to ignore build folders
+4f09e1d3252db2bda920e2b496080c455afb769a a86c65066a44f3bc4c2fedeaa68c2fe35927a1a9 rahulbari <rahulbari717@gmail.com> 1711087615 +0530	commit: Remove tracked build directories
+a86c65066a44f3bc4c2fedeaa68c2fe35927a1a9 1ec8fc49c4da07a912657c4dc1c43c93b79e369f rahulbari <rahulbari717@gmail.com> 1711087703 +0530	commit: Ignore build directories globally
+1ec8fc49c4da07a912657c4dc1c43c93b79e369f dfe98932f819a9951d4b65c17b964c8e1f807cb0 rahulbari <rahulbari717@gmail.com> 1711087770 +0530	commit: Committing modifications and untracked files
+dfe98932f819a9951d4b65c17b964c8e1f807cb0 b1c11d3b0ca1dd9786851aa6b5209d7414f35548 rahulbari <rahulbari717@gmail.com> 1711094197 +0530	commit: flash partion table code is updated with new csv files
+b1c11d3b0ca1dd9786851aa6b5209d7414f35548 d1a3a15ed8e3b0f32a5538a59893dc76990b50ad rahulbari <rahulbari717@gmail.com> 1711094829 +0530	commit: Creating seprate folders
+d1a3a15ed8e3b0f32a5538a59893dc76990b50ad be5701558684841c03b36114e045b21d98b0751b rahulbari <rahulbari717@gmail.com> 1711097234 +0530	commit: Img and py and Txt files stores here
+be5701558684841c03b36114e045b21d98b0751b 6a6cf0499d3623bdf7252fcbeccffbbe0d9a27b4 rahulbari <rahulbari717@gmail.com> 1711098513 +0530	commit: NVS flash when reboot its increse value
+6a6cf0499d3623bdf7252fcbeccffbbe0d9a27b4 681a0da0bbf5f5f61dee98b974eef72e86568bdd rahulbari <rahulbari717@gmail.com> 1711109818 +0530	commit: NVS
+681a0da0bbf5f5f61dee98b974eef72e86568bdd 21ae5dbd5c4d436e7a683a6b1881fc4edb273166 rahulbari <rahulbari717@gmail.com> 1711260907 +0530	commit: Changes for OTA_csv
+21ae5dbd5c4d436e7a683a6b1881fc4edb273166 1a53d47502b984e70738ef4b3a67c737a713c30a rahulbari <rahulbari717@gmail.com> 1711271019 +0530	commit: GPIO all done
