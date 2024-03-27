@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "light-sleep",
-    "project_version":    "6a6cf049",
+    "project_version":    "032622fa2-dirty",
     "project_path":       "/home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer",
     "idf_path":           "/home/lenovo/esp/esp-idf",
     "build_dir":          "/home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build",

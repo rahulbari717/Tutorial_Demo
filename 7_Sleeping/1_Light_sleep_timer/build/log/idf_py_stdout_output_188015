@@ -1,0 +1,75 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "light-sleep" version: 032622fa2-dirty
+-- Adding linker script /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/lenovo/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/lenovo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/lenovo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/lenovo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/lenovo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/lenovo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/lenovo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/lenovo/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/lenovo/esp/esp-idf/components/app_trace /home/lenovo/esp/esp-idf/components/app_update /home/lenovo/esp/esp-idf/components/bootloader /home/lenovo/esp/esp-idf/components/bootloader_support /home/lenovo/esp/esp-idf/components/bt /home/lenovo/esp/esp-idf/components/cmock /home/lenovo/esp/esp-idf/components/console /home/lenovo/esp/esp-idf/components/cxx /home/lenovo/esp/esp-idf/components/driver /home/lenovo/esp/esp-idf/components/efuse /home/lenovo/esp/esp-idf/components/esp-tls /home/lenovo/esp/esp-idf/components/esp_adc /home/lenovo/esp/esp-idf/components/esp_app_format /home/lenovo/esp/esp-idf/components/esp_bootloader_format /home/lenovo/esp/esp-idf/components/esp_coex /home/lenovo/esp/esp-idf/components/esp_common /home/lenovo/esp/esp-idf/components/esp_eth /home/lenovo/esp/esp-idf/components/esp_event /home/lenovo/esp/esp-idf/components/esp_gdbstub /home/lenovo/esp/esp-idf/components/esp_hid /home/lenovo/esp/esp-idf/components/esp_http_client /home/lenovo/esp/esp-idf/components/esp_http_server /home/lenovo/esp/esp-idf/components/esp_https_ota /home/lenovo/esp/esp-idf/components/esp_https_server /home/lenovo/esp/esp-idf/components/esp_hw_support /home/lenovo/esp/esp-idf/components/esp_lcd /home/lenovo/esp/esp-idf/components/esp_local_ctrl /home/lenovo/esp/esp-idf/components/esp_mm /home/lenovo/esp/esp-idf/components/esp_netif /home/lenovo/esp/esp-idf/components/esp_netif_stack /home/lenovo/esp/esp-idf/components/esp_partition /home/lenovo/esp/esp-idf/components/esp_phy /home/lenovo/esp/esp-idf/components/esp_pm /home/lenovo/esp/esp-idf/components/esp_psram /home/lenovo/esp/esp-idf/components/esp_ringbuf /home/lenovo/esp/esp-idf/components/esp_rom /home/lenovo/esp/esp-idf/components/esp_system /home/lenovo/esp/esp-idf/components/esp_timer /home/lenovo/esp/esp-idf/components/esp_wifi /home/lenovo/esp/esp-idf/components/espcoredump /home/lenovo/esp/esp-idf/components/esptool_py /home/lenovo/esp/esp-idf/components/fatfs /home/lenovo/esp/esp-idf/components/freertos /home/lenovo/esp/esp-idf/components/hal /home/lenovo/esp/esp-idf/components/heap /home/lenovo/esp/esp-idf/components/http_parser /home/lenovo/esp/esp-idf/components/idf_test /home/lenovo/esp/esp-idf/components/ieee802154 /home/lenovo/esp/esp-idf/components/json /home/lenovo/esp/esp-idf/components/log /home/lenovo/esp/esp-idf/components/lwip /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/main /home/lenovo/esp/esp-idf/components/mbedtls /home/lenovo/esp/esp-idf/components/mqtt /home/lenovo/esp/esp-idf/components/newlib /home/lenovo/esp/esp-idf/components/nvs_flash /home/lenovo/esp/esp-idf/components/nvs_sec_provider /home/lenovo/esp/esp-idf/components/openthread /home/lenovo/esp/esp-idf/components/partition_table /home/lenovo/esp/esp-idf/components/perfmon /home/lenovo/esp/esp-idf/components/protobuf-c /home/lenovo/esp/esp-idf/components/protocomm /home/lenovo/esp/esp-idf/components/pthread /home/lenovo/esp/esp-idf/components/sdmmc /home/lenovo/esp/esp-idf/components/soc /home/lenovo/esp/esp-idf/components/spi_flash /home/lenovo/esp/esp-idf/components/spiffs /home/lenovo/esp/esp-idf/components/tcp_transport /home/lenovo/esp/esp-idf/components/ulp /home/lenovo/esp/esp-idf/components/unity /home/lenovo/esp/esp-idf/components/usb /home/lenovo/esp/esp-idf/components/vfs /home/lenovo/esp/esp-idf/components/wear_levelling /home/lenovo/esp/esp-idf/components/wifi_provisioning /home/lenovo/esp/esp-idf/components/wpa_supplicant /home/lenovo/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build
+[1/12] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[2/12] Performing build step for 'bootloader'
+[1/1] cd /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build/bootloader/esp-idf/esptool_py && /home/lenovo/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/lenovo/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[3/10] Linking C static library esp-idf/esp_app_format/libesp_app_format.a
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable light-sleep.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build/light-sleep.bin
+[9/10] cd /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build/esp-idf/esptool_py && /home/lenovo/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/lenovo/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build/partition_table/partition-table.bin /home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build/light-sleep.bin
+light-sleep.bin binary size 0x2d7f0 bytes. Smallest app partition is 0x100000 bytes. 0xd2810 bytes (82%) free.
+[9/10] cd /home/lenovo/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/lenovo/esp/esp-idf -D "SERIAL_TOOL=/home/lenovo/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/home/lenovo/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/lenovo/Desktop/Linux_Practice/7_Sleeping/1_Light_sleep_timer/build -P /home/lenovo/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 light-sleep.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting.......
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:3a:f2:aa:19:f8
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0003dfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26704 bytes to 16349...
+Writing at 0x00001000... (100 %)
+Wrote 26704 bytes (16349 compressed) at 0x00001000 in 0.9 seconds (effective 240.6 kbit/s)...
+Hash of data verified.
+Compressed 186352 bytes to 99521...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001c9e7... (28 %)
+Writing at 0x0002238f... (42 %)
+Writing at 0x00027c11... (57 %)
+Writing at 0x0002f3cd... (71 %)
+Writing at 0x00036998... (85 %)
+Writing at 0x0003cffc... (100 %)
+Wrote 186352 bytes (99521 compressed) at 0x00010000 in 2.9 seconds (effective 522.3 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 347.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
